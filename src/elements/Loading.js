@@ -7,7 +7,7 @@ const Loading = (props) => {
         return null;
     }
     return (
-        <View style={StyleSheet.container}>
+        <View style={styles.container}>
             <ActivityIndicator size='large' />
             <Text style={styles.text}>{text}</Text>
         </View>
